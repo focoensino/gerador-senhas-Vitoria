@@ -1,0 +1,129 @@
+body{
+ background-color: #f8fafd ;
+ font-family: "Inter", sans-serif;
+ color: #252525;
+ padding: 2rem;
+}
+
+main{
+    max-width: 780px;
+    margin: 0 auto;
+    
+}
+
+.topo{
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.topo .titulo{
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 1.5rem;
+
+}
+
+.topo .sub-titulo{
+
+     font-size: 1.125rem;
+     color: #828282;
+}
+
+.box{
+  background: #fff;
+  box-shadow: 0 1px 2px;
+  border-radius: 8px;
+  margin-bottom: 3rem;
+}
+
+ .password{
+    display: flex;
+
+
+}
+
+.password .text{
+    flex: 1;
+}
+
+.password .text input{
+
+    font-family: "Inconsolata", serif;
+    font-size: 3rem;
+    border: none;
+    outline: none;
+    cursor: default;
+    height: 52px;
+    width: 100%;
+}
+
+.password .actions button{
+
+ background-color: transparent;
+ border: none;
+ cursor: pointer;
+ opacity: 0.7;
+
+
+}
+
+.security-indicator{
+    height: 10px;
+    background-color: #ddd;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+
+.security-indicator .bar{
+    height: 10px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+
+}
+
+.security-indicator .bar.critical{
+    background-color: #eb5757 ;
+}
+.security-indicator .bar.warning{
+    background-color: #f2c94c;
+}
+.security-indicator .bar.safe{
+    background-color: #27ae60 ;
+}
+.security-indicator .bar.completed{
+    border-top-right-radius: 0;
+}
+
+.customize{
+    padding: 1rem 1.5rem;
+}
+
+.customize .title{
+    border-bottom: 1px solid #f8f8f8;
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    padding-bottom: 0.75rem;
+}
+
+.customize .actions{
+    display: flex;
+    gap: 3rem;
+}
+
+.customize .password-length{
+  flex: 1;
+}
+
+.customize .password-length .slider{
+    appearance: none;
+    height: 10px;
+    background: #dddddd;
+    outline: none;
+    border-radius: 8px;
+    width: 100%;
+    opacity: 0.7s;
+
+}
